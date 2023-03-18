@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  padding-top: 160px;
+  background-image: url(https://i.ibb.co/4FYDWwT/ivan-torres-MQUqbmsz-GGM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+
+  font-family: "Emilys Candy", cursive;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 86px;
+  text-align: center;
+}
+
+h1 span {
+  color: #ffa501;
+}
+
+h2 {
+  color: #ffffff;
+  opacity: 0.9;
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 72px;
+
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  opacity: 1;
+  background-color: #ffa501;
+  margin-right: 10px;
+}
+
+a:hover,
+.btn-primary {
+  text-decoration: none;
+  color: black;
+  background-color: #ffa501;
+  opacity: 1;
+}
